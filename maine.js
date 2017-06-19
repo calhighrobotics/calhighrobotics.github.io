@@ -1,17 +1,17 @@
 function passWord() {
     var testV = 1;
-    var pass1 = prompt('Please Enter Your Password', ' ');
+    var pass1 = prompt('Please Enter Your Password', 'enter your password please!');
     while (testV < 3) {
         if (!pass1)
             history.go(-1);
-        if (pass1.toLowerCase() == "letmein") {
+        if (pass1.toLowerCase() == "team1516") {
             alert('You Got it Right!');
             window.open('https://drive.google.com/open?id=0B5YYOq9dKJFucFg0anh1MDVyRkk');
             break;
         }
         testV += 1;
         var pass1 =
-            prompt('Access Denied - Password Incorrect, Please Try Again.', 'Password');
+            prompt('Access Denied - Password Incorrect, Please Try Again.', 'maybe you can get it right this time...');
     }
     if (pass1.toLowerCase() != "password" & testV == 3)
         history.go(-1);
