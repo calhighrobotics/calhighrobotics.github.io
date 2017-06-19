@@ -14,7 +14,6 @@ function passWord() {
             prompt('Access Denied - Password Incorrect, Please Try Again.', 'maybe you can get it right this time...');
     }
     if (pass1.toLowerCase() != "password" & testV == 3)
-        history.go(-1);
 	    // very small annoyance
 	    alert("Sorry man, this is what you get for sticking your nose where it doesn't belong.")
 	    txt = "a";
