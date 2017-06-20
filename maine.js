@@ -4,7 +4,7 @@ function passWord() {
     while (testV < 3) {
         if (!pass1)
             history.go(-1);
-        if (pass1.toLowerCase() == "team1516") {
+        if (pass1.toLowerCase() == "team1516ab") {
             alert('You Got it Right!');
             window.open('https://drive.google.com/open?id=0B5YYOq9dKJFucFg0anh1MDVyRkk');
             break;
