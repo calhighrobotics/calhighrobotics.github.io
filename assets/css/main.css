@@ -2485,6 +2485,13 @@ img.hover-shadow {
 			color: #8cc9f0;
 		}
 
+		.icon.style6 {
+			color: #be5e00;
+		}
+
+		.icon.style7 {
+			color: #3d3d3d;
+		}
 		@media screen and (max-width: 1680px) {
 
 			.icon.major:before {
@@ -3683,10 +3690,10 @@ img.hover-shadow {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #c46e19, #723800, #130900);
+			background-image: -webkit-linear-gradient(90deg, #c46e19, #723800, #130900);
+			background-image: -ms-linear-gradient(90deg, #c46e19, #723800, #130900);
+			background-image: linear-gradient(90deg, #c46e19, #723800, #130900);
 		}
 
 		#main table tbody tr {
