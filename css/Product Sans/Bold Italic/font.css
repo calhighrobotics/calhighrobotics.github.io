@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Product Sans Bold Italic';
+  src: url('Product Sans Bold Italic.eot');
+  src: url('Product Sans Bold Italic.woff2') format('woff2'),
+       url('Product Sans Bold Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProductSans-BoldItalic';
+  src: url('ProductSans-BoldItalic.woff') format('woff'),
+       url('ProductSans-BoldItalic.ttf') format('truetype'),
+       url('ProductSans-BoldItalic.svg#ProductSans-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
