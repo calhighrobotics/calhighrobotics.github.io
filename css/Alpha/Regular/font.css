@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AlphaRegular';
+  src: url('AlphaRegular.eot');
+  src: url('AlphaRegular.woff2') format('woff2'),
+       url('AlphaRegular.woff') format('woff'),
+       url('AlphaRegular.ttf') format('truetype'),
+       url('AlphaRegular.svg#AlphaRegular') format('svg'),
+       url('AlphaRegular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

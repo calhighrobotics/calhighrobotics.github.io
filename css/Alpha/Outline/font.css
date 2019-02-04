@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AlphaOutline';
+  src: url('AlphaOutline.eot');
+  src: url('AlphaOutline.woff2') format('woff2'),
+       url('AlphaOutline.woff') format('woff'),
+       url('AlphaOutline.ttf') format('truetype'),
+       url('AlphaOutline.svg#AlphaOutline') format('svg'),
+       url('AlphaOutline.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
