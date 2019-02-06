@@ -81,6 +81,11 @@
     color: #fff;
 }
 
+.under {
+    position: absolute;
+    top: 65vh;
+}
+
 .LRGlogo {
     max-width:75px;
     max-height:75px;
