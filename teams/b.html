@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cal High Robotics Fighting Grizzlies</title>
+        <link rel="stylesheet" href="./../css/main.css">
+        <link rel="stylesheet" href="./../css/fonts.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="./../css/bootstrap-grid.min.css">
+    </head>
+    <body class="site">
+        <nav>
+            <div class="overlay">
+                <button onClick="toggleNav()" class="navbutton">
+                    <ul class="navicon">
+                        <li class="line"></li>
+                        <li class="line"></li>
+                        <li class="line"></li>
+                    </ul>
+                </button>
+                <div class="linkbox">
+                    <div class="linkwrapper">
+                        <ul class="links">
+                            <li class="navlink">
+                                <a href="../index.html" class="link" onclick="toggleNav()">Home</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="../about.html" class="link" onclick="toggleNav()">About Us</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="#" class="link" onclick="toggleTeamNav()">Teams</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="../gallery.html" class="link" onclick="toggleNav()">Gallery</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="../sponsors.html" class="link" onclick="toggleNav()">Calendar</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="../document.html" class="link" onclick="toggleNav()">Documents/Forms</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="../contact.html" class="link" onclick="toggleNav()">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="teamoverlay">
+            <button onClick="toggleTeamNav()" class="teambackbutton">
+                <ul class="arrowicon">
+                    <li class="arrowline"></li>
+                    <li class="arrowline"></li>
+                    <li class="arrowline"></li>
+                </ul>
+            </button>
+            <div class="teambox">
+                <div class="letterwrapper">
+                    <h1 class="teamtitle">Team<span class="nospace">s</span></h1>
+                    <div class="teamletters">
+                        <a href="./a.html" class="teamletter" onClick="toggleTeamNav()">A</a>
+                        <a href="./b.html" class="teamletter" onClick="toggleTeamNav()">B</a>
+                        <a href="./p.html" class="teamletter" onClick="toggleTeamNav()">P</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sectionheader content">
+            <div class="flexwrapper">
+                <h1 class="pagetitle">We're still building!</h1>
+                <h3 class="comeback">Come back a little later!</h3>
+            </div>
+        </div>
+        <footer class="row">
+            <div class="col-lg-6 col-xs-12">
+                <h2 class="footertext">Cal High Robotics Fighting Grizzlies</h2>
+                <p class="footertext">9870 Broadmoor Dr • San Ramon, CA 94583 • USA</p>
+                <p class="footertext">
+                    Email: <a class="footertext mail" href="mailto:calhighrobotics@gmail.com">calhighrobotics@gmail.com</a>
+                </p>
+            </div>
+            <div class="col-lg-6 col-xs-12">
+                <div class="social">
+                    <a href="#" class="socialicons">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="socialicons">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="socialicons">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="socialicons">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <p class="copyright">Copyright&copy; <span id="currentYear"></span> Cal High Robotics Fighting Grizzlies</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="./../js/index.js" charset="utf-8"></script>
+    </body>
+</html>
