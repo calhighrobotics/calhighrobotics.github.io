@@ -71,6 +71,28 @@
     margin-left: 0em;
 }
 
+.small {
+    margin: 0;
+    font-family: 'Product Sans', sans-serif;
+    font-weight: 150;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.under {
+    position: absolute;
+    top: 65vh;
+}
+
+.LRGlogo {
+    max-width:75px;
+    max-height:75px;
+    width: auto;
+    height: auto; 
+    margin-bottom: 20px;
+}
 
 html, body {
     background: transparent;
@@ -388,11 +410,11 @@ nav .overlay {
 }
 
 .togglednav .navlink .link::before {
-    content: '[';
+    content: ']';
 }
 
 .togglednav .navlink .link::after {
-    content: ']';
+    content: '[';
 }
 
 .togglednav .navlink .link:hover::after, .togglednav .navlink .link:focus::after, .togglednav .navlink .link:hover::before, .togglednav .navlink .link:focus::before {
