@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AlphaLight';
+  src: url('AlphaLight.eot');
+  src: url('AlphaLight.woff2') format('woff2'),
+       url('AlphaLight.woff') format('woff'),
+       url('AlphaLight.ttf') format('truetype'),
+       url('AlphaLight.svg#AlphaLight') format('svg'),
+       url('AlphaLight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

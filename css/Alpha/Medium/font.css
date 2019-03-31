@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AlphaMedium';
+  src: url('AlphaMedium.eot');
+  src: url('AlphaMedium.woff2') format('woff2'),
+       url('AlphaMedium.woff') format('woff'),
+       url('AlphaMedium.ttf') format('truetype'),
+       url('AlphaMedium.svg#AlphaMedium') format('svg'),
+       url('AlphaMedium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
