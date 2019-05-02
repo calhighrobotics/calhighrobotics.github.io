@@ -1,93 +1,43 @@
-:root{
-    --accent: #be5000;
-    --main: #33333d;
-    --ptxt: #fff;
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #535353;
+  line-height: 1.8;
 }
 
-html{
-    height: 100%;
-    /* background-image: linear-gradient(155deg, rgba(232,130,38,1) 0%, rgba(24,24,24,1) 100%);  */
-    background-color: var(--main);
-    color: var(--accent);
-    font-family: Helvetica, sans-serif;
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-a{
-    color: var(--accent); 
-    text-decoration: none;
-    font-family: Helvetica, sans-serif!important;
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('logo.jpg');
+  min-height: 100%;
 }
 
-p{
-    color: var(--ptxt); 
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("team.jpg");
+  min-height: 400px;
 }
 
-img {
-    border-radius: 50%;
-    width: 20%;
-    height: auto;
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("contact.jpg");
+  min-height: 400px;
 }
 
-body{
-    padding:0 5% 0 5%
-}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
 
-a.fa-file:hover {
-    color: #aaf0d1;
-}
-
-a.fa-twitter:hover {
-    color: #00aced;
-}
-
-a.fa-instagram:hover {
-    color: #bc2a8d;
-}
-
-a.fa-github:hover {
-    color: #6e5494;
-}
-
-a.fa-envelope:hover {
-    color: #dd4b39;
-}
-
-.indent p{
-    padding-left: 10px;
-    color: var(--ptxt);
-}
-
-.indent a {
-    padding-left: 10px;
-    color: var(--ptxt);
-}
-
-form p{
-    color: var(--accent);
-}
-
-form .submit {
-    color: var(--ptxt);
-    background-color: var(--accent);
-    border: none;
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    body{
-        padding:0 25% 0 25%
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    body{
-        padding:0 25% 0 25%
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body{
-        padding:0 25% 0 25%
-    }
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
 }
