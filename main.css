@@ -15,19 +15,25 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('logo.jpg');
+  background-image: url('images/logo.jpg');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("team.jpg");
+  background-image: url("images/team.jpg");
   min-height: 400px;
 }
 
-/* Third image (Contact) */
+/* Third image (Documents) */
 .bgimg-3 {
-  background-image: url("contact.jpg");
+  background-image: url("images/paperwork.jpg");
+  min-height: 400px;
+}
+
+/* Fourth image (Contact) */
+.bgimg-4 {
+  background-image: url("images/contact.jpg");
   min-height: 400px;
 }
 
@@ -36,7 +42,7 @@ body, html {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
     min-height: 400px;
   }
